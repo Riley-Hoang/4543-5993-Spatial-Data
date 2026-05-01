@@ -1,79 +1,75 @@
-# 📝 Worksheet: 02 - Working with Data
+🧠 Section 1: Lists
 
-Use this worksheet to review and reinforce your understanding of Python data containers.
+1. What method adds an item to the end of a list?
+Answer: append()
 
----
-
-## 🧠 Section 1: Lists
-
-1. What method adds an item to the end of a list?  
-   `Answer:` ____________________________
-
-2. How can you remove an item from a list by value?  
-   `Answer:` ____________________________
+2. How can you remove an item from a list by value?
+Answer: remove()
 
 3. What’s the result of this code?
 
-```python
 nums = [2, 4, 6]
 nums.append(8)
 print(nums)
-```
 
-   `Answer:` ____________________________
+Answer:
+[2, 4, 6, 8]
 
----
+✏️ Task: List Practice (Example Solution)
+foods = ["pizza", "sushi", "burger"]
 
-### ✏️ Task: List Practice
+foods.append("pasta")   # add another food
+foods.remove("sushi")   # remove one item
 
-```python
-# Create a list of your top 3 favorite foods.
-# Add another food to the list.
-# Remove one item and print the list.
-```
+print(foods)
 
----
+['pizza', 'burger', 'pasta']
 
-## 🔒 Section 2: Tuples
+🔒 Section 2: Tuples
 
-4. What is a key difference between a list and a tuple?  
-   `Answer:` ____________________________
+4. What is a key difference between a list and a tuple?
+Answer:
+Lists are mutable (can be changed), while tuples are immutable (cannot be changed after creation).
 
-5. Can you change the contents of a tuple once it is created? Why or why not?  
-   `Answer:` ____________________________
+5. Can you change the contents of a tuple once it is created? Why or why not?
+Answer:
+No, because tuples are immutable, meaning their values cannot be modified after they are created.
 
----
+✏️ Task: Tuple Practice (Example Solution)
+numbers = (3, 7, 10)
 
-### ✏️ Task: Tuple Practice
+a, b, c = numbers  # unpacking
 
-```python
-# Create a tuple with your favorite 3 numbers.
-# Unpack it into three variables and print each.
-```
+print(a)
+print(b)
+print(c)
 
----
+3
+7
+10
 
-## 🔑 Section 3: Dictionaries
+🔑 Section 3: Dictionaries
 
-6. What does the `.get()` method do differently from accessing a key directly?  
-   `Answer:` ____________________________
+6. What does the .get() method do differently from accessing a key directly?
+Answer:
+.get() returns None (or a default value) if the key does not exist, instead of raising an error like direct access (dict[key]).
 
-7. How do you loop through both keys and values in a dictionary?  
-   `Answer:` ____________________________
+7. How do you loop through both keys and values in a dictionary?
+Answer:
+Use the .items() method:
 
----
+for key, value in my_dict.items():
+✏️ Task: Dictionary Practice (Example Solution)
+person = {
+    "name": "Hoang",
+    "age": 20,
+    "hobby": "gaming"
+}
 
-### ✏️ Task: Dictionary Practice
+for key, value in person.items():
+    print(f"{key}: {value}")
 
-```python
-# Create a dictionary with keys: 'name', 'age', and 'hobby'.
-# Print each key and value in the format "key: value".
-```
-
----
-
-## 🧾 Submit Checklist
-
-- [ ] I practiced creating and modifying lists.
-- [ ] I understand how tuples are different from lists.
-- [ ] I accessed and looped through dictionary items.
+Answer:
+name: Hoang
+age: 20
+hobby: gaming
