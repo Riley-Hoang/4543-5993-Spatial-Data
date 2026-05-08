@@ -1,0 +1,17 @@
+respondent_id,name,email,gender,exercise_freq,age,height_cm,weight_kg,satisfaction,submitted_at,consent_given
+1001, Alice Johnson ,alice.johnson@example.com,F,daily,22,165cm,58kg,5,2025-03-01 09:15:00,Yes
+1002,Bob Smith,bob.smith@example, M ,3x/week,27 years,180 cm,82 kg,4,03/02/2025 14:30,Y
+1003, Carla Gomez,  carla.gomez@example.com  ,female,Weekly, ,172cm,68kg,3,2025/03/03 08:00,true
+1004,David Lee,david.lee@sample.org,Male,never,31,175, ,2,March 4 2025 6:45 PM,No
+1005,Emily Davis,emily.davis@example.com,Female,2 times/week,29,169 cm,61kg,4,"2025-03-05T12:00:00",TRUE
+1006, Frank Moore ,,m,Every day,thirty,182cm,90kg,5,2025-03-06,false
+1007,Grace Kim,grace.kim@example.com,Nonbinary,Rarely,24,160cm,55 kg, ,2025-03-07 07:20:00,1
+1008,Hector Ruiz,hector.ruiz@example.com,Male,sometimes,45,170 centimeters,77 kilograms,3,2025-03-08 11:11:00,0
+1009, Ivy Chen,ivy.chen@domain.com,F,Weekly,38,168,59,4,2025-03-09 10:10:00,yes
+1010,Jack Brown,jack.brown@domain.com,Male,3x weekly,19,177 cm,72kg,5,2025-03-10 16:40:00,Yes
+1011,Karen Patel,karen.patel at mail.com,female,Never,41,166cm,64kg,2,2025-03-11 13:05:00,no
+1012,Luis Torres,luis.torres@example.com,Other,Daily,35, 181 cm ,85 kg,4,2025-03-12 09:00:00,True
+1013,Mia Wilson,mia.wilson@example.com,F,1-2 times,28,164cm,abc,5,2025-03-13 18:25:00,Yes
+1014,Nathan Young,nathan.young@example.com,Male,,33,,79kg,3,2025-03-14 12:12:00,
+1015, Olivia Hall ,olivia.hall@example.com, woman ,Once a week,26,167cm,60kg,4,2025-03-15 08:45:00,YES
+1015, Olivia Hall ,olivia.hall@example.com, woman ,Once a week,26,167cm,60kg,4,2025-03-15 08:45:00,YES

@@ -1,0 +1,12 @@
+respondent_id,name,email,gender,exercise_freq,age,height_cm,weight_kg,satisfaction,submitted_at,consent_given,email_valid
+1001,Alice Johnson,alice.johnson@example.com,Female,Daily,22,165,58,5.0,2025-03-01 09:15:00,True,True
+1003,Carla Gomez,carla.gomez@example.com,Female,Weekly,,172,68,3.0,,True,True
+1004,David Lee,david.lee@sample.org,Male,Never,31,175,,2.0,,False,True
+1005,Emily Davis,emily.davis@example.com,Female,Weekly,29,169,61,4.0,,True,True
+1007,Grace Kim,grace.kim@example.com,Other,Rarely,24,160,55,,2025-03-07 07:20:00,,True
+1008,Hector Ruiz,hector.ruiz@example.com,Male,Rarely,45,170,77,3.0,2025-03-08 11:11:00,,True
+1009,Ivy Chen,ivy.chen@domain.com,Female,Weekly,38,168,59,4.0,2025-03-09 10:10:00,True,True
+1010,Jack Brown,jack.brown@domain.com,Male,Weekly,19,177,72,5.0,2025-03-10 16:40:00,True,True
+1012,Luis Torres,luis.torres@example.com,Other,Daily,35,181,85,4.0,2025-03-12 09:00:00,True,True
+1013,Mia Wilson,mia.wilson@example.com,Female,Weekly,28,164,,5.0,2025-03-13 18:25:00,True,True
+1015,Olivia Hall,olivia.hall@example.com,Female,Weekly,26,167,60,4.0,2025-03-15 08:45:00,True,True
