@@ -1,0 +1,7 @@
+Hello world
+This line has four words
+Python is fun
+I like coding in Python
+Short line
+This one has more than three words
+Yes indeed it does
